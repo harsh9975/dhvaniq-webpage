@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dhvaniq — Autonomous AI Voice Engine for Business</title>
+  <meta name="description" content="Dhvaniq builds autonomous voice assistants grounded in your verified business knowledge and rules. Answer calls, capture appointments, and eliminate voicemail 24/7.">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/tokens.css?v=16">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css?v=16">
+</head>
+<body class="dub-canvas">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ====================================================================
+       TOP ANNOUNCEMENT BAR (Dub Full-Width Banner with Glowing Pill)
+       ==================================================================== -->
+  <aside class="top-announcement" aria-label="Announcement">
+    <div class="announcement-pill">
+      <span class="announcement-badge">New</span>
+      <span class="announcement-text">Introducing Dhvaniq Voice Engine 2.0 with sub-800ms turn-taking</span>
+      <a href="https://app.dhvaniq.com/register" class="announcement-link">Request Early Access &rarr;</a>
+    </div>
+  </aside>
+
+  <!-- ====================================================================
+       SITE HEADER / NAVIGATION (Full-Width Sticky Bar with 1080px Inner)
+       ==================================================================== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="./" class="brand-link" aria-label="Dhvaniq homepage">
+        <img class="logo" src="assets/dhvaniq_color.svg" alt="Dhvaniq" width="118" height="30">
+      </a>
+      
+      <nav class="main-nav" id="navigation" aria-label="Main navigation">
+        <a href="#voice" class="nav-link">Product</a>
+        <a href="#knowledge" class="nav-link">Knowledge</a>
+        <a href="#integrations" class="nav-link">Integrations</a>
+        <a href="#enterprise" class="nav-link">Enterprise</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://app.dhvaniq.com/login" class="nav-btn-ghost">Log in</a>
+        <a href="https://app.dhvaniq.com/register" class="nav-btn-dark">Get started</a>
+        <button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ==================================================================
+         HERO SECTION 1: HERO COPY (White Canvas with Dotted Grid & Satoshi)
+         ================================================================== -->
+    <section class="grid-section hero-intro-section">
+      <div class="grid-content hero-intro-content">
+        <div class="hero-blueprint-bg" aria-hidden="true"></div>
+
+        <div class="hero-copy-column">
+          <a href="https://app.dhvaniq.com/register" class="hero-pill-badge">
+            <span class="badge-dot-orange"></span>
+            <span>Autonomous Voice Engine for Business</span>
+            <span class="badge-arrow">&rarr;</span>
+          </a>
+
+          <h1 class="hero-title">
+            Give your business<br>a voice that gets things done.
+          </h1>
+
+          <p class="hero-subtitle">
+            Dhvaniq answers customer calls, grounds responses in verified business knowledge, and books appointments 24/7.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn-dark-cta" href="https://app.dhvaniq.com/register">Start for free</a>
+            <a class="btn-outlined-cta" href="#voice">Explore platform</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         HERO SECTION 2: LIVE PRODUCT DASHBOARD & CAPABILITY SWITCHER
+         (Clean #f5f5f5 backdrop with floating segmented pill switcher)
+         ================================================================== -->
+    <section class="grid-section hero-shelf-section">
+      <div class="grid-content hero-shelf-content">
+
+        <!-- Modern Floating Segmented Tab Control -->
+        <div class="hero-tabs-container">
+          <div class="hero-segmented-tabs" role="tablist" aria-label="Platform capabilities">
+            <button class="hero-tab-pill active" role="tab" aria-selected="true" data-tab="voice">
+              <span class="tab-indicator-dot dot-voice"></span>
+              <span>Autonomous Voice</span>
+            </button>
+            <button class="hero-tab-pill" role="tab" aria-selected="false" data-tab="knowledge">
+              <span class="tab-indicator-dot dot-knowledge"></span>
+              <span>Verified Knowledge</span>
+            </button>
+            <button class="hero-tab-pill" role="tab" aria-selected="false" data-tab="actions">
+              <span class="tab-indicator-dot dot-actions"></span>
+              <span>Deterministic Actions</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Dashboard Window Frame (Dub Double-Border Glass Card) -->
+        <div class="dashboard-outer-frame">
+          <div class="dashboard-inner-frame">
+
+            <!-- Mac-style Top Control Bar -->
+            <div class="dashboard-topbar">
+              <div class="window-dots">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+              </div>
+              <div class="search-field-pill">
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" class="search-icon"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg>
+                <span>Search active calls, grounded documents, caller numbers...</span>
+                <kbd class="kbd-shortcut">&fnof;</kbd>
+              </div>
+              <div class="topbar-live-status">
+                <span class="status-pulse-dot"></span>
+                <span class="status-text">Voice Engine Online &bull; 640ms</span>
+              </div>
+            </div>
+
+            <!-- Dashboard Body Split: Sidebar + Dynamic Tab Panels -->
+            <div class="dashboard-split-body">
+              <aside class="dashboard-sidebar">
+                <div class="sidebar-brand">
+                  <div class="brand-avatar-box">D</div>
+                  <span class="brand-name">Dhvaniq Studio</span>
+                </div>
+                <nav class="sidebar-links">
+                  <button type="button" class="sidebar-link-item active" data-tab="voice">
+                    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" class="side-svg"><path d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5z"/><path d="M8 9l4 2-4 2V9z"/></svg>
+                    <span>Inbound Calls</span>
+                  </button>
+                  <button type="button" class="sidebar-link-item" data-tab="knowledge">
+                    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" class="side-svg"><path d="M4 3h12a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1z"/><path d="M7 7h6M7 10h6M7 13h4"/></svg>
+                    <span>Knowledge Docs</span>
+                  </button>
+                  <button type="button" class="sidebar-link-item" data-tab="actions">
+                    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" class="side-svg"><path d="M10 2v4M10 14v4M2 10h4M14 10h4"/><circle cx="10" cy="10" r="3"/></svg>
+                    <span>Actions &amp; SMS</span>
+                  </button>
+                  <a href="#integrations" class="sidebar-link-item">
+                    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" class="side-svg"><path d="M4 11a4 4 0 018 0v2a4 4 0 008 0"/></svg>
+                    <span>Integrations</span>
+                  </a>
+                </nav>
+              </aside>
+
+              <div class="dashboard-table-area">
+                
+                <!-- PANEL 1: Autonomous Voice (Active Calls Feed) -->
+                <div class="dashboard-panel active" id="panel-voice" data-panel="voice">
+                  <div class="table-header-strip">
+                    <span>CALLER</span>
+                    <span>INTENT DETECTED</span>
+                    <span>VERIFIED CITATION</span>
+                    <span>DURATION</span>
+                    <span>OUTCOME</span>
+                  </div>
+
+                  <div class="table-row-item">
+                    <div class="caller-cell">
+                      <div class="caller-icon-avatar">MS</div>
+                      <div>
+                        <strong>+1 (415) 890-2341</strong>
+                        <span>San Francisco &bull; Inbound</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">Consultation Booking</span>
+                    <span class="citation-pill">Services &amp; Pricing &sect; 2</span>
+                    <span class="mono-meta">02:14</span>
+                    <span class="outcome-tag outcome-captured">&check; Booked</span>
+                  </div>
+
+                  <div class="table-row-item">
+                    <div class="caller-cell">
+                      <div class="caller-icon-avatar blue-avatar">DR</div>
+                      <div>
+                        <strong>+1 (212) 441-9012</strong>
+                        <span>New York &bull; Inbound</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">Emergency Office Hours</span>
+                    <span class="citation-pill">Office_Hours_Policy.pdf</span>
+                    <span class="mono-meta">01:08</span>
+                    <span class="outcome-tag outcome-resolved">Answered</span>
+                  </div>
+
+                  <div class="table-row-item">
+                    <div class="caller-cell">
+                      <div class="caller-icon-avatar violet-avatar">AK</div>
+                      <div>
+                        <strong>+1 (312) 774-8820</strong>
+                        <span>Chicago &bull; Inbound</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">Service Fee Inquiry</span>
+                    <span class="citation-pill">Fee_Schedule_2026.pdf</span>
+                    <span class="mono-meta">03:42</span>
+                    <span class="outcome-tag outcome-captured">&check; Booked</span>
+                  </div>
+
+                  <div class="table-row-item">
+                    <div class="caller-cell">
+                      <div class="caller-icon-avatar green-avatar">EL</div>
+                      <div>
+                        <strong>+1 (512) 690-4411</strong>
+                        <span>Austin &bull; Inbound</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">Telehealth Eligibility</span>
+                    <span class="citation-pill">Clinic_Intake_FAQ.docx</span>
+                    <span class="mono-meta">01:45</span>
+                    <span class="outcome-tag outcome-resolved">Answered</span>
+                  </div>
+                </div>
+
+                <!-- PANEL 2: Verified Knowledge (Indexed Docs & Source Citations) -->
+                <div class="dashboard-panel" id="panel-knowledge" data-panel="knowledge">
+                  <div class="table-header-strip knowledge-header-strip">
+                    <span>DOCUMENT / SOURCE</span>
+                    <span>FORMAT</span>
+                    <span>INDEXED CHUNKS</span>
+                    <span>GROUNDING COVERAGE</span>
+                    <span>SYNC STATUS</span>
+                  </div>
+
+                  <div class="table-row-item knowledge-row-item">
+                    <div class="caller-cell">
+                      <div class="doc-format-badge badge-pdf">PDF</div>
+                      <div>
+                        <strong>Consultation_Fees_2026.pdf</strong>
+                        <span>Updated 2 hours ago &bull; 1.2 MB</span>
+                      </div>
+                    </div>
+                    <span class="format-label">Pricing Matrix</span>
+                    <span class="citation-pill">124 Vector Chunks</span>
+                    <span class="coverage-pill">&bull; 100% Verifiable</span>
+                    <span class="outcome-tag outcome-captured">&check; Synced</span>
+                  </div>
+
+                  <div class="table-row-item knowledge-row-item">
+                    <div class="caller-cell">
+                      <div class="doc-format-badge badge-docx">DOCX</div>
+                      <div>
+                        <strong>Office_Hours_Policy.docx</strong>
+                        <span>Updated yesterday &bull; 420 KB</span>
+                      </div>
+                    </div>
+                    <span class="format-label">Operating Schedule</span>
+                    <span class="citation-pill">48 Vector Chunks</span>
+                    <span class="coverage-pill">&bull; 100% Verifiable</span>
+                    <span class="outcome-tag outcome-captured">&check; Synced</span>
+                  </div>
+
+                  <div class="table-row-item knowledge-row-item">
+                    <div class="caller-cell">
+                      <div class="doc-format-badge badge-notion">NOTION</div>
+                      <div>
+                        <strong>Booking_Guidelines_Studio.notion</strong>
+                        <span>Live Sync &bull; Cloud Workspace</span>
+                      </div>
+                    </div>
+                    <span class="format-label">Rules &amp; Guidelines</span>
+                    <span class="citation-pill">86 Vector Chunks</span>
+                    <span class="coverage-pill">&bull; 100% Verifiable</span>
+                    <span class="outcome-tag outcome-captured">&check; Synced</span>
+                  </div>
+
+                  <div class="table-row-item knowledge-row-item">
+                    <div class="caller-cell">
+                      <div class="doc-format-badge badge-pdf">PDF</div>
+                      <div>
+                        <strong>Emergency_Protocol_Guide.pdf</strong>
+                        <span>Updated 3 days ago &bull; 850 KB</span>
+                      </div>
+                    </div>
+                    <span class="format-label">Safety Escalation</span>
+                    <span class="citation-pill">62 Vector Chunks</span>
+                    <span class="coverage-pill">&bull; 99.8% Verifiable</span>
+                    <span class="outcome-tag outcome-captured">&check; Synced</span>
+                  </div>
+                </div>
+
+                <!-- PANEL 3: Deterministic Actions (Workflows, SMS & CRM Sync) -->
+                <div class="dashboard-panel" id="panel-actions" data-panel="actions">
+                  <div class="table-header-strip actions-header-strip">
+                    <span>TRIGGER EVENT</span>
+                    <span>ACTION DISPATCHED</span>
+                    <span>TARGET SYSTEM</span>
+                    <span>EXECUTION</span>
+                    <span>DISPATCH STATUS</span>
+                  </div>
+
+                  <div class="table-row-item actions-row-item">
+                    <div class="caller-cell">
+                      <div class="action-icon-badge badge-sms">SMS</div>
+                      <div>
+                        <strong>Consultation_Slot_Agreed</strong>
+                        <span>Caller: +1 (415) 890-2341</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">Two-Way SMS Follow-Up</span>
+                    <span class="citation-pill">Twilio Messaging API</span>
+                    <span class="mono-meta">120ms</span>
+                    <span class="outcome-tag outcome-captured">&check; Dispatched</span>
+                  </div>
+
+                  <div class="table-row-item actions-row-item">
+                    <div class="caller-cell">
+                      <div class="action-icon-badge badge-cal">CAL</div>
+                      <div>
+                        <strong>Consultation_Slot_Agreed</strong>
+                        <span>Tuesday, Oct 28 &bull; 2:30 PM</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">Calendar Event Hold</span>
+                    <span class="citation-pill">Google Cal / Cal.com</span>
+                    <span class="mono-meta">210ms</span>
+                    <span class="outcome-tag outcome-captured">&check; Synced</span>
+                  </div>
+
+                  <div class="table-row-item actions-row-item">
+                    <div class="caller-cell">
+                      <div class="action-icon-badge badge-crm">CRM</div>
+                      <div>
+                        <strong>New_Patient_Intake_Captured</strong>
+                        <span>Name: Dr. Meera Sharma lead</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">CRM Contact &amp; Deal Update</span>
+                    <span class="citation-pill">HubSpot CRM Pipeline</span>
+                    <span class="mono-meta">180ms</span>
+                    <span class="outcome-tag outcome-captured">&check; Updated</span>
+                  </div>
+
+                  <div class="table-row-item actions-row-item">
+                    <div class="caller-cell">
+                      <div class="action-icon-badge badge-hook">HOOK</div>
+                      <div>
+                        <strong>Emergency_Handoff_Requested</strong>
+                        <span>Triage Escalation Alert</span>
+                      </div>
+                    </div>
+                    <span class="intent-pill">On-Call Staff Notification</span>
+                    <span class="citation-pill">Slack Webhook &bull; #oncall</span>
+                    <span class="mono-meta">95ms</span>
+                    <span class="outcome-tag outcome-resolved">&check; Delivered</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Dub Signature Floating Dark Banner (Dynamically Updates) -->
+            <div class="dashboard-bottom-banner" id="dashboard-banner">
+              <div class="floating-banner-left">
+                <span class="audio-wave-anim">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </span>
+                <div class="banner-text-block">
+                  <strong id="banner-title">Autonomous Voice Engine Active</strong>
+                  <p id="banner-desc">Turn incoming phone calls into confirmed calendar appointments with 100% grounded facts.</p>
+                </div>
+              </div>
+              <a href="https://app.dhvaniq.com/register" class="banner-cta-btn" id="banner-btn">Start testing free</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         LOGO GRID SECTION (Dub 4x2 Hairline Grid Inside 1080px Rails)
+         ================================================================== -->
+    <section class="grid-section logo-grid-section">
+      <div class="grid-content logo-grid-content">
+        <div class="logo-grid-4x2 reveal-on-scroll">
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">Twilio Voice</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">Google Calendar</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">HubSpot CRM</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">Cal.com</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">SIP Trunks</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">Zapier</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">Microsoft 365</span>
+          </div>
+          <div class="logo-grid-cell">
+            <span class="logo-text-mark">REST Webhooks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         BENTO SECTION 1: VOICE ENGINE (It starts with a call)
+         No Testimonials / Quote Bars.
+         ================================================================== -->
+    <section id="voice" class="grid-section bento-feature-section">
+      <div class="grid-content bento-content">
+        
+        <!-- Bento Header -->
+        <div class="bento-header-block reveal-on-scroll">
+          <div class="bento-feature-badge orange-badge">
+            <span class="bento-badge-glyph glyph-orange"></span>
+            <span>VOICE ENGINE</span>
+          </div>
+          <h2 class="bento-headline">It starts with a call.</h2>
+          <p class="bento-description">
+            Handle customer calls with natural turn-taking, sub-second latency, and fluid interruption handling shaped specifically for your business.
+          </p>
+          <div class="bento-action-wrap">
+            <a href="https://app.dhvaniq.com/register" class="btn-outlined-bento">Explore Voice Engine &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Bento Visual Box (Hairline top & bottom borders, #fafafa canvas) -->
+        <div class="bento-canvas-box reveal-on-scroll delay-1">
+          <div class="bento-visual-inner">
+            <!-- Voice Call Flow Interactive Mockup -->
+            <div class="voice-cards-stack">
+              <div class="voice-call-card active-card">
+                <div class="card-caller-row">
+                  <div class="caller-lead-info">
+                    <span class="caller-tel">+1 (415) 890-2341</span>
+                    <span class="caller-badge-active">Live &bull; 02:14</span>
+                  </div>
+                  <div class="waveform-pill">
+                    <span></span><span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="card-transcript-row">
+                  <div class="transcript-line caller-line">
+                    <span class="speaker-tag">Caller:</span>
+                    <span>“Hi, I'd like to book a consultation for next Tuesday afternoon.”</span>
+                  </div>
+                  <div class="transcript-line agent-line">
+                    <span class="speaker-tag">Dhvaniq:</span>
+                    <span>“I can certainly help with that! We have 2:30 PM and 4:00 PM open on Tuesday with Dr. Meera.”</span>
+                  </div>
+                </div>
+                <div class="card-footer-meta">
+                  <span class="source-citation-tag">Grounded in: Booking_Rules_2026.pdf &sect; 3</span>
+                  <span class="latency-stat">&lt; 640ms Turn-Taking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3-Column Sub-Features with Hairline Borders -->
+          <div class="bento-subcolumns-grid">
+            <div class="subcolumn-item reveal-on-scroll delay-1">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><path d="M9 1v16M1 9h16"/></svg>
+              <h3 class="subcolumn-title">Sub-800ms Latency</h3>
+              <p class="subcolumn-text">Natural conversational flow without robotic lag or awkward customer pauses.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+
+            <div class="subcolumn-item reveal-on-scroll delay-2">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><path d="M3 9l4 4L15 5"/></svg>
+              <h3 class="subcolumn-title">Natural Interruption</h3>
+              <p class="subcolumn-text">Callers can speak over the assistant mid-sentence; Dhvaniq yields instantly.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+
+            <div class="subcolumn-item reveal-on-scroll delay-3">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><rect x="3" y="3" width="12" height="12" rx="2"/></svg>
+              <h3 class="subcolumn-title">Automatic PII Redaction</h3>
+              <p class="subcolumn-text">Caller credit cards and sensitive personal data are redacted from transcripts.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         BENTO SECTION 2: KNOWLEDGE GROUNDING (Measure what matters)
+         No Testimonials / Quote Bars.
+         ================================================================== -->
+    <section id="knowledge" class="grid-section bento-feature-section">
+      <div class="grid-content bento-content">
+        
+        <!-- Bento Header -->
+        <div class="bento-header-block reveal-on-scroll">
+          <div class="bento-feature-badge green-badge">
+            <span class="bento-badge-glyph glyph-green"></span>
+            <span>REAL-TIME GROUNDING</span>
+          </div>
+          <h2 class="bento-headline">Grounded in your business. Never guessing.</h2>
+          <p class="bento-description">
+            Upload your price sheets, operating hours, and booking guidelines. Dhvaniq indexes and cites your exact sources before answering, eliminating hallucinations.
+          </p>
+          <div class="bento-action-wrap">
+            <a href="https://app.dhvaniq.com/register" class="btn-outlined-bento">Explore Knowledge Hub &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Bento Visual Box -->
+        <div class="bento-canvas-box reveal-on-scroll delay-1">
+          <div class="bento-visual-inner">
+            <!-- Knowledge Citation Graph Mockup -->
+            <div class="knowledge-sources-matrix">
+              <div class="doc-card-node active-doc">
+                <div class="doc-badge-pill">PDF &bull; Indexed</div>
+                <strong class="doc-filename">Consultation_Fees_2026.pdf</strong>
+                <p class="doc-snippet">“Initial consultation: $150. Follow-up reviews: $75. Direct insurance billing available.”</p>
+                <div class="doc-citation-match">
+                  <span class="match-bullet"></span>
+                  <span>100% Grounded match for fee queries</span>
+                </div>
+              </div>
+              <div class="doc-card-node">
+                <div class="doc-badge-pill">DOCX &bull; Indexed</div>
+                <strong class="doc-filename">Emergency_Hours_Policy.docx</strong>
+                <p class="doc-snippet">“After-hours triage available Monday through Saturday until 9 PM for registered clients.”</p>
+                <div class="doc-citation-match">
+                  <span class="match-bullet"></span>
+                  <span>100% Grounded match for hours queries</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3-Column Sub-Features with Hairline Borders -->
+          <div class="bento-subcolumns-grid">
+            <div class="subcolumn-item reveal-on-scroll delay-1">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><path d="M4 2h10a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V3a1 1 0 011-1z"/></svg>
+              <h3 class="subcolumn-title">Multi-Format Ingestion</h3>
+              <p class="subcolumn-text">Instant indexing of PDFs, Word docs, Notion workspaces, and web URLs.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+
+            <div class="subcolumn-item reveal-on-scroll delay-2">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><circle cx="9" cy="9" r="7"/></svg>
+              <h3 class="subcolumn-title">Verifiable Citation Tags</h3>
+              <p class="subcolumn-text">Every spoken statement points directly to the source document paragraph.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+
+            <div class="subcolumn-item reveal-on-scroll delay-3">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><path d="M9 3v6l4 2"/></svg>
+              <h3 class="subcolumn-title">Deterministic Fallbacks</h3>
+              <p class="subcolumn-text">When questions fall outside your docs, it offers a clean staff message handoff.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         INTEGRATIONS SECTION: CONNECT WITH YOUR FAVORITE TOOLS (Dub Split)
+         ================================================================== -->
+    <section id="integrations" class="grid-section tools-integration-section">
+      <div class="grid-content tools-integration-content">
+        <div class="tools-split-layout">
+          <!-- Left Column -->
+          <div class="tools-copy-side reveal-on-scroll">
+            <div class="bento-feature-badge blue-badge">
+              <span class="bento-badge-glyph glyph-blue"></span>
+              <span>INTEGRATIONS</span>
+            </div>
+            <h2 class="bento-headline">Connect with your favorite tools.</h2>
+            <p class="bento-description">
+              Extend Dhvaniq, streamline customer bookings, and sync caller records with the CRMs and scheduling apps your team already uses every day.
+            </p>
+            <div class="bento-action-wrap">
+              <a href="https://app.dhvaniq.com/register" class="btn-outlined-bento">Explore integrations &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Connected Icons Grid -->
+          <div class="tools-matrix-side reveal-on-scroll delay-1">
+            <div class="matrix-grid-3x3">
+              <div class="matrix-node-cell"><div class="tool-tile">Google Cal</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">Twilio</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">HubSpot</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">Cal.com</div></div>
+              <div class="matrix-node-cell center-node"><div class="tool-tile dhvaniq-tile">Dhvaniq</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">Zapier</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">Slack</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">Outlook</div></div>
+              <div class="matrix-node-cell"><div class="tool-tile">Webhooks</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         BENTO SECTION 3: DETERMINISTIC ACTIONS (Turn calls into revenue)
+         No Testimonials / Quote Bars.
+         ================================================================== -->
+    <section id="actions" class="grid-section bento-feature-section">
+      <div class="grid-content bento-content">
+        
+        <!-- Bento Header -->
+        <div class="bento-header-block reveal-on-scroll">
+          <div class="bento-feature-badge violet-badge">
+            <span class="bento-badge-glyph glyph-violet"></span>
+            <span>DETERMINISTIC ACTIONS</span>
+          </div>
+          <h2 class="bento-headline">Turn customer calls into structured next steps.</h2>
+          <p class="bento-description">
+            Go far beyond open-ended chat. Dhvaniq captures appointment preferences, sends two-way SMS confirmations, and notifies your team in real time.
+          </p>
+          <div class="bento-action-wrap">
+            <a href="https://app.dhvaniq.com/register" class="btn-outlined-bento">Explore Action Workflows &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Bento Visual Box -->
+        <div class="bento-canvas-box reveal-on-scroll delay-1">
+          <div class="bento-visual-inner">
+            <!-- Action Dispatcher Mockup -->
+            <div class="action-dispatcher-preview">
+              <div class="sms-preview-card">
+                <div class="sms-header">
+                  <span class="sms-title">Instant SMS Confirmation Dispatched</span>
+                  <span class="sms-time">Just now</span>
+                </div>
+                <div class="sms-bubble">
+                  “Hi Alex, your consultation with Dr. Meera is booked for Tuesday, Oct 28 at 2:30 PM. Reply 1 to confirm or 2 to reschedule.”
+                </div>
+                <div class="action-chips">
+                  <span class="action-chip">&check; Calendar Event Created</span>
+                  <span class="action-chip">&check; HubSpot Deal Updated</span>
+                  <span class="action-chip">&check; Team Alerted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3-Column Sub-Features with Hairline Borders -->
+          <div class="bento-subcolumns-grid">
+            <div class="subcolumn-item reveal-on-scroll delay-1">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><path d="M3 4h12M3 9h12M3 14h8"/></svg>
+              <h3 class="subcolumn-title">Structured Parameter Capture</h3>
+              <p class="subcolumn-text">Extracts caller names, dates, times, and inquiries into clean JSON payloads.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+
+            <div class="subcolumn-item reveal-on-scroll delay-2">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><path d="M1 5l8 6 8-6"/></svg>
+              <h3 class="subcolumn-title">Two-Way SMS Follow-Ups</h3>
+              <p class="subcolumn-text">Sends immediate confirmation texts directly to caller mobile phones.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+
+            <div class="subcolumn-item reveal-on-scroll delay-3">
+              <div class="subcolumn-indicator"></div>
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" class="subcol-svg"><rect x="2" y="3" width="14" height="12" rx="2"/></svg>
+              <h3 class="subcolumn-title">Calendar &amp; CRM Sync</h3>
+              <p class="subcolumn-text">Pushes confirmed consultation slots straight to your staff Google or Outlook calendar.</p>
+              <a href="https://app.dhvaniq.com/register" class="subcolumn-link">Learn more &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         INFRASTRUCTURE / SCALE SECTION (Dub Metric Grid)
+         ================================================================== -->
+    <section id="enterprise" class="grid-section enterprise-section">
+      <div class="grid-content enterprise-content">
+        <div class="bento-header-block reveal-on-scroll">
+          <div class="bento-feature-badge blue-badge">
+            <span class="bento-badge-glyph glyph-blue"></span>
+            <span>ENTERPRISE-GRADE</span>
+          </div>
+          <h2 class="bento-headline">Built to scale with your volume.</h2>
+          <p class="bento-description">
+            Engineered for high-reliability voice workloads with enterprise compliance, low-latency regional edge networks, and carrier-grade uptime.
+          </p>
+        </div>
+
+        <div class="metrics-grid-4col">
+          <div class="metric-cell reveal-on-scroll delay-1">
+            <span class="metric-number">99.99%</span>
+            <strong class="metric-label">Uptime SLA</strong>
+            <p class="metric-summary">Multi-region carrier failover ensures you never miss a caller during peak volume spikes.</p>
+          </div>
+          <div class="metric-cell reveal-on-scroll delay-2">
+            <span class="metric-number">&lt; 800ms</span>
+            <strong class="metric-label">Speech Latency</strong>
+            <p class="metric-summary">Sub-second voice turn-taking mimics natural human conversational cadence.</p>
+          </div>
+          <div class="metric-cell reveal-on-scroll delay-3">
+            <span class="metric-number">SOC 2</span>
+            <strong class="metric-label">Type II Compliant</strong>
+            <p class="metric-summary">End-to-end encryption in transit and at rest with strict tenant database isolation.</p>
+          </div>
+          <div class="metric-cell reveal-on-scroll delay-4">
+            <span class="metric-number">BYOC</span>
+            <strong class="metric-label">SIP &amp; PBX Ready</strong>
+            <p class="metric-summary">Bring your existing business phone numbers, SIP trunks, or PBX with zero lock-in.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         FAQ SECTION (Dub Clean Hairline Accordion)
+         ================================================================== -->
+    <section id="faq" class="grid-section faq-section">
+      <div class="grid-content faq-content">
+        <div class="bento-header-block reveal-on-scroll">
+          <div class="bento-feature-badge blue-badge">
+            <span class="bento-badge-glyph glyph-blue"></span>
+            <span>QUESTIONS</span>
+          </div>
+          <h2 class="bento-headline">Frequently asked questions.</h2>
+          <p class="bento-description">
+            Everything you need to know about setting up and deploying Dhvaniq voice assistants.
+          </p>
+        </div>
+
+        <div class="faq-accordion-wrap reveal-on-scroll delay-1">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>How does Dhvaniq know how to answer questions about my business?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Dhvaniq is grounded exclusively in the business knowledge you provide—including PDF manuals, service lists, operating hours, and booking guidelines. When a caller asks a question, Dhvaniq searches your indexed documents in real time and formulates an answer derived directly from those sources, preventing unverified claims or hallucinations.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I keep my existing business phone number?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. You do not need to change carriers or port your phone number. You can configure simple conditional call-forwarding through your existing provider (such as forwarding calls when your line is busy, after 4 rings, or after business hours) directly to your assigned Dhvaniq assistant number.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>What happens if a caller asks something outside the assistant’s knowledge?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Dhvaniq follows strict fallback guidelines. Instead of guessing, it politely informs the caller that it doesn't have that specific information, offers to capture their contact details and inquiry, and notifies your staff for direct follow-up.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How do appointment bookings and captured requests get confirmed?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Dhvaniq captures the caller’s requested service, preferred date, and preferred time window. It flags the request as “Awaiting Team Confirmation” and instantly alerts your staff via SMS, email, or your CRM dashboard, allowing your team to review and confirm the booking with full oversight.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I test and preview conversations before going live?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. Dhvaniq Studio includes an interactive testing simulator where you can talk to or text your assistant directly in your browser. You can test edge cases, refine responses, review source citations, and publish updates only when completely satisfied.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Is caller information secure and confidential?</span>
+              <span class="faq-toggle-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-answer">
+              <p>Customer data is encrypted in transit and at rest. Dhvaniq employs strict data isolation and redaction protocols so caller recordings and personal information are accessible solely by authorized administrators on your account.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         CLOSING CTA SECTION (Dub Editorial Callout)
+         ================================================================== -->
+    <section class="grid-section closing-cta-section">
+      <div class="grid-content closing-cta-content">
+        <div class="closing-card-box reveal-on-scroll">
+          <div class="bento-feature-badge blue-badge center-badge">
+            <span class="bento-badge-glyph glyph-blue"></span>
+            <span>GET STARTED TODAY</span>
+          </div>
+          <h2 class="closing-headline">Stop losing callers to voicemail.</h2>
+          <p class="closing-subcopy">
+            Free to start with early access. Give your business an assistant that answers every call, grounds answers in your knowledge, and books appointments 24/7.
+          </p>
+          <div class="closing-actions-row">
+            <a href="https://app.dhvaniq.com/register" class="btn-dark-cta">Start for free</a>
+            <a href="#voice" class="btn-outlined-cta">Explore platform</a>
+          </div>
+          <p class="closing-fineprint">No credit card required &bull; Live in under 15 minutes</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       FOOTER (Dub 5-Column Sitemap Footer with System Status & Hairline Top)
+       ==================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-main-grid">
+        <!-- Brand & Mission Column -->
+        <div class="footer-brand-column">
+          <a href="./" class="footer-brand-link" aria-label="Dhvaniq homepage">
+            <img class="logo" src="assets/dhvaniq_color.svg" alt="Dhvaniq" width="118" height="30">
+          </a>
+          <p class="footer-brand-desc">
+            Autonomous AI voice assistants grounded in verified business knowledge and rules.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter / X" class="social-icon-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="social-icon-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub" class="social-icon-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4 Categorical Navigation Columns -->
+        <div class="footer-columns-wrap">
+          <div class="footer-col">
+            <h3 class="footer-col-header">Product</h3>
+            <ul class="footer-link-list">
+              <li><a href="#voice">Voice Engine</a></li>
+              <li><a href="#knowledge">Knowledge Grounding</a></li>
+              <li><a href="#actions">Deterministic Actions</a></li>
+              <li><a href="#integrations">Integrations</a></li>
+              <li><a href="#enterprise">Enterprise SLA</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col-header">Solutions</h3>
+            <ul class="footer-link-list">
+              <li><a href="#actions">Appointment Booking</a></li>
+              <li><a href="#voice">Customer Inquiries</a></li>
+              <li><a href="#voice">After-Hours Answering</a></li>
+              <li><a href="#voice">Front Desk Overflow</a></li>
+              <li><a href="#integrations">CRM Sync</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col-header">Resources</h3>
+            <ul class="footer-link-list">
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="https://app.dhvaniq.com/login">Sign in</a></li>
+              <li><a href="https://app.dhvaniq.com/register">Request Early Access</a></li>
+              <li><a href="mailto:hello@dhvaniq.com">Contact Support</a></li>
+              <li><a href="#enterprise">Architecture Docs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3 class="footer-col-header">Company</h3>
+            <ul class="footer-link-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Changelog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Status & Legal Bar -->
+      <div class="footer-bottom-row">
+        <a href="https://status.dhvaniq.com" target="_blank" rel="noreferrer" class="status-pill-btn">
+          <span class="status-pulse-dot"></span>
+          <span>All systems operational</span>
+        </a>
+
+        <div class="footer-compliance-text">
+          <span>SOC 2 Type II Certified</span>
+          <span class="compliance-sep">&bull;</span>
+          <span>HIPAA Ready</span>
+        </div>
+
+        <p class="footer-copyright">&copy; <span id="year">2026</span> Dhvaniq, Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=16"></script>
+</body>
+</html>
